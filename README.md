@@ -2,7 +2,7 @@
 
 **Version:** 2.0 BETA
 
-**Author:** Mitchell "pie." Meister
+**Author:** Mitchell Meister (Linkedin: https://www.linkedin.com/in/mitchell-meister-04733b234/)
 
 ## Description
 
