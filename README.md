@@ -8,9 +8,9 @@
 
 `PS-Vulnerability Scanner` (Previously Named pie.secure) is a Bash script designed to help secure your Ubuntu-based Linux system. It automates various security-related tasks, making it easier for users to enhance the security of their systems. pie.secure is perfect for cybersecurity competitions such as CCDC, CyberPatriot, and HiveStorm!
 
-## Version 2.0 Pre-release
+## Version 2.0 Pre-Release
 
-To access the pre-release go into the releases section of this github, and pre-release v2.0 should be pinned on top.
+To access the pre-release go into the releases section of this github, and pre-release v2.0 should be pinned on top. This is a pre-release for a reason and major changes are still to come within the upcoming weeks.
 
 ## Features
 
