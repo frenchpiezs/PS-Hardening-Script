@@ -20,7 +20,7 @@
 - **Malware & Vulnerabilities Check:** Checks for common vulnerabilities, runs ClamTK, Lynis, and CHKrootkit scans.
 - **Network Security Check:** Checks for common network vulnerabilities
 
-![pie.secure Screenshot](piesecure.png)
+![pie.secure Screenshot](ps-scanner.png)
 
 ## Usage
 
