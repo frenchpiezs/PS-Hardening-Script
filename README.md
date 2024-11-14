@@ -35,28 +35,6 @@ The User Management Menu (Option 5) provides several functionalities to manage a
 
 ![pie.secure Screenshot](ps-hardening-script.png)
 
-## Usage
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/PS-Vulnerability-Scanner.git
-   ```
-
-2. Make the script executable:
-
-   ```bash
-   chmod +x script.sh
-   ```
-
-3. Run the script as a superuser (root):
-
-   ```bash
-   sudo ./script.sh
-   ```
-
-4. Follow the on-screen menu options to perform various security tasks.
-
 ## Important Notes
 
 - **Use with caution:** This script makes significant changes to your system's configuration. Ensure you have a backup and understand the implications of each option.
