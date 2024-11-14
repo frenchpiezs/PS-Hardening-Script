@@ -1,6 +1,6 @@
 # PS-Hardening Script
 
-**Version:** 2.0 
+**Version: 2.0 (Major Release)**
 
 **Author:** Mitchell Meister (Linkedin: https://www.linkedin.com/in/mitchell-meister-04733b234/)
 
@@ -8,21 +8,30 @@
 
 `PS-Hardening Script` (Previously Named pie.secure) is a Bash script designed to help secure your Ubuntu-based Linux system. It automates various security-related tasks, making it easier for users to enhance the security of their systems. pie.secure is perfect for cybersecurity competitions such as CCDC, CyberPatriot, and HiveStorm!
 
-## Version 2.0 Pre-Release
+## Features 
 
-To access the pre-release go into the releases section of this github, and pre-release v2.0 should be pinned on top. This is a pre-release for a reason and major changes are still to come within the upcoming weeks.
+1. **Update:** This option will update the system packages to the latest versions.
+2. **Firewall Setup (UFW):** This option will set up and configure the Uncomplicated Firewall (UFW) to secure the system.
+3. **Firewall Policies:** This option will configure specific firewall policies to control network traffic.
+4. **Fix Shadow Permissions & Other Sensitive Files:** This option will ensure that the permissions of sensitive files like /etc/shadow are correctly set to prevent unauthorized access.
+5. **User Management Menu:** This option provides a submenu for managing users, including adding/removing users, granting/revoking admin privileges, and securing the sudoers file.
+6. **SSH Permissions:** This option will configure and secure SSH settings to prevent unauthorized access.
+7. **Password Policies:** This option will configure password policies to enforce strong passwords.
+8. **Malware & Vulnerabilities Check:** This option will run checks for malware and common vulnerabilities. It may take a while to complete.
+9. **Network Security:** This option will configure network security settings to protect the system from network-based attacks.
+10. **Search for Prohibited Files:** This option will search the system for files with specific extensions that are prohibited.
 
-## Features
+## User Management Security
 
-- **Update:** Keeps your system up-to-date by running package updates and enabling auto-updates.
-- **Firewall Setup (UFW):** Checks if Uncomplicated Firewall (UFW) is installed and enables it if necessary.
-- **Firewall Policies:** Disables insecure ports like HTTP, SMTP, and more to improve security.
-- **Fix Shadow Permissions:** Sets permissions on the `/etc/shadow` file to restrict access.
-- **User Management Menu:** Sub-Menu that allows you to manage users, including adding/removing users and granting admin privileges.
-- **SSH Permissions:** Secures the SSH configuration by disabling root login and changing the SSH port.
-- **Password Policies:** Configures secure password policies, including length and complexity requirements.
-- **Malware & Vulnerabilities Check:** Checks for common vulnerabilities, runs ClamTK, Lynis, and CHKrootkit scans.
-- **Network Security Check:** Checks for common network vulnerabilities
+The User Management Menu (Option 5) provides several functionalities to manage and secure user accounts:
+
+1. **Add A User:** Allows the addition of a new user to the system.
+2. **Remove A User:** Allows the removal of an existing user from the system.
+3. **Remove A User Admin:** Revokes admin privileges from a user.
+4. **Grant A User Admin:** Grants admin privileges to a user.
+5. **Secure Sudoers File:** Ensures that only authorized users have sudo access and verifies the permissions of the sudoers file.
+6. **Create a User Group:** Allows the creation of a new user group.
+7. **Add Users To Group:** Adds a user to an existing group.
 
 ![pie.secure Screenshot](ps-scanner.png)
 
