@@ -33,7 +33,7 @@ The User Management Menu (Option 5) provides several functionalities to manage a
 6. **Create a User Group:** Allows the creation of a new user group.
 7. **Add Users To Group:** Adds a user to an existing group.
 
-![pie.secure Screenshot](ps-scanner.png)
+![pie.secure Screenshot](ps-hardening-script.png)
 
 ## Usage
 
