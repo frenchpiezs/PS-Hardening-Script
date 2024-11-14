@@ -1,12 +1,12 @@
-# PS-Vulnerability Scanner
+# PS-Hardening Script
 
-**Version:** 2.0 BETA
+**Version:** 2.0 
 
 **Author:** Mitchell Meister (Linkedin: https://www.linkedin.com/in/mitchell-meister-04733b234/)
 
 ## Description
 
-`PS-Vulnerability Scanner` (Previously Named pie.secure) is a Bash script designed to help secure your Ubuntu-based Linux system. It automates various security-related tasks, making it easier for users to enhance the security of their systems. pie.secure is perfect for cybersecurity competitions such as CCDC, CyberPatriot, and HiveStorm!
+`PS-Hardening Script` (Previously Named pie.secure) is a Bash script designed to help secure your Ubuntu-based Linux system. It automates various security-related tasks, making it easier for users to enhance the security of their systems. pie.secure is perfect for cybersecurity competitions such as CCDC, CyberPatriot, and HiveStorm!
 
 ## Version 2.0 Pre-Release
 
